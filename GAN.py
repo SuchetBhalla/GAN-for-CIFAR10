@@ -210,21 +210,15 @@ for epoch in range(num_epochs):
                 step += 1
                 
 #clean up
-del plt
-del np
-del exit
+del plt, np, exit
 
-del torch
-del torchvision
-del transforms
+del torch, torchvision, transforms
 
-del nn
-del optim
-del F
+del nn, optim, F
 
-del datasets
-del DataLoader
+del datasets, DataLoader
+
+del dataset, loader
 
 del disc, gen, opt_disc, opt_gen, criterion, fixed_noise, transformations
 
-del dataset, loader
